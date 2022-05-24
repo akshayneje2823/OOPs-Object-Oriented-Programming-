@@ -1,0 +1,14 @@
+reduce Method takes two arguments one is function and another is initial value
+
+
+Syntax :
+
+        const array = [1,2,3,4,5,6,7]
+
+        const sum = array.reduce((acc,curr)=>{
+            acc = acc + curr;
+        }
+        return acc
+        0)
+
+        console.log(sum)
