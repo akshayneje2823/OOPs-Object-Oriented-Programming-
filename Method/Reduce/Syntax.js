@@ -22,6 +22,8 @@ console.log(finSum(num))
 
 //  Using Reduce Method
 
-const and = num.reduce(function(acc,curr){
-    
-})       /*accumulator,current                  */
+const Sum = num.reduce(function(acc,curr){                 /*  It Takes Two arguments on is finction and the other one is initial value  */
+    acc = acc + curr;
+    return acc
+},0)       
+console.log(Sum)
